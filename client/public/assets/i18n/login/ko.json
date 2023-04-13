@@ -1,0 +1,11 @@
+{
+  "signin_account": "Sign in to your account",
+  "create_account": "회원가입",
+  "email": "이메일",
+  "password": "비밀번호",
+  "signin": "로그인",
+  "noaccountyet": "아직 회원이 아니시라면,",
+  "signup": "회원가입",
+  "username": "이름",
+  "haveaccount": "이미 회원이라면,"
+}

@@ -1,0 +1,11 @@
+{
+  "signin_account": "Sign in to your account",
+  "create_account": "创建账户",
+  "signin": "登陆",
+  "signup": "注册",
+  "email": "电邮",
+  "password": "密码",
+  "noaccountyet": "还没有帐户吗？",
+  "username": "姓名",
+  "haveaccount": "已有账户？"
+}
