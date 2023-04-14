@@ -1,4 +1,4 @@
-import React, { useRef, useEffect } from "react";
+import React, { useEffect } from "react";
 import { createRef } from "react";
 
 const Canvas = () => {
@@ -51,7 +51,7 @@ const Canvas = () => {
     };
 
     run();
-  }, []);
+  }, [canvasRef]);
 
   return (
     <canvas

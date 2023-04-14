@@ -8,7 +8,6 @@ const Products = () => {
   const catId = parseInt(useParams().id);
   const [maxPrice, setMaxPrice] = useState(200);
   const [selectedSubCats, setSelectedSubCats] = useState([]);
-  const [selectedCats, setSelectedCats] = useState([]);
 
   const { data, loading, error } = useFetch(
     `/subcategories?[filters][categories][id][$eq]=${catId}`

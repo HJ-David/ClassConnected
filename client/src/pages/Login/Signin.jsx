@@ -32,7 +32,7 @@ const Signin = () => {
     }
   };
     
-  const { i18n, t } = useTranslation(["login"]);
+  const { t } = useTranslation(["login"]);
 
   return (
     <div className='flex bg-gradient-to-b from-white via-gray-200 to-gray-100 w-90vw justify-center'>

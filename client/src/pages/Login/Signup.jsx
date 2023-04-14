@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
@@ -30,7 +30,7 @@ const Signup = () => {
     }));
   };
 
-  const { i18n, t } = useTranslation(["login"]);
+  const { t } = useTranslation(["login"]);
 
   return (
     <div className='flex bg-gradient-to-b from-white via-gray-200 to-gray-100 w-90vw justify-center'>

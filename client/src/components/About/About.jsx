@@ -2,7 +2,7 @@ import React from 'react'
 import { useTranslation } from "react-i18next";
 
 const About = () => {
-  const { i18n, t } = useTranslation(["about"]);
+  const { t } = useTranslation(["about"]);
 
   return (
     <div className='w-90vw my-20'>

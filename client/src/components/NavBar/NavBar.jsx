@@ -1,4 +1,4 @@
-import React, { Fragment, useState, useEffect } from "react";
+import React, { Fragment, useState } from "react";
 import { BsCartCheck } from "react-icons/bs";
 import { RiArrowRightSLine } from "react-icons/ri";
 import { FaLanguage } from "react-icons/fa";
@@ -26,7 +26,7 @@ const NavBar = () => {
     setNav(!nav);
   };
 
-  const { i18n, t } = useTranslation(["navbar"]);
+  const { t } = useTranslation(["navbar"]);
 
 
   return (
