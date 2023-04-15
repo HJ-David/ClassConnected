@@ -1,3 +1,3 @@
 # ClassConnected
-React_tailwind_Strapi_ClassConnected
-# 
+# React_tailwind_Strapi_ClassConnected
+
